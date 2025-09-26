@@ -28,16 +28,16 @@ const Contact = () => {
     // Send admin email
     emailjs
       .send(
-        "service_36bnpg6",
-        "template_5jc9qmp",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE1_ID,
         formData,
-        "oFm2glwqJeGoBZm9A"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         // Send auto-reply to user
         return emailjs.send(
-          "service_36bnpg6",
-          "template_revin2u",
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE2_ID,
           {
             name: formData.name,
             email: formData.email,
@@ -45,7 +45,7 @@ const Contact = () => {
             program: formData.program,
             membership: formData.membership,
           },
-          "oFm2glwqJeGoBZm9A"
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         );
       })
       .then(() => {
