@@ -1,16 +1,46 @@
-# React + Vite
+# Elevare Fitness - Gym Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Elevare Fitness** is a fully responsive, production-ready gym website built with React.js and TailwindCSS. This project demonstrates real-world front-end development practices, including component-based architecture, reusable assets, API integration, and modern development workflows.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Key Features
 
-## React Compiler
+- **Homepage:**
+  - Dynamic header section with smooth transitions
+  - Interactive statistics and counters for trainers, equipment, and programs
+  - FAQ section with collapsible accordions (only one item open at a time)
+  - “Why Choose Us” section demonstrating reusable components
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Contact Page:**
+  - Fully functional contact form integrated with **EmailJS**
+  - Auto-reply system for users
+  - Embedded interactive map using **React-Leaflet**
+  - Cleanly structured contact information
 
-## Expanding the ESLint configuration
+- **Project Structure & Best Practices:**
+  - Modular component structure for scalability
+  - Reusable assets and centralized asset management
+  - Proper state and effect handling using React hooks
+  - Realistic handling of forms and API calls
+  - Git-friendly structure for easy collaboration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies
+
+- **Frontend:** React.js, TailwindCSS  
+- **Animations & Interactivity:** Framer Motion  
+- **Icons & UI Components:** Lucide React, React Icons  
+- **Maps:** React-Leaflet (Leaflet.js)  
+- **Email Integration:** EmailJS  
+- **Version Control:** Git & GitHub  
+
+---
+
+## ⚡ Getting Started (Developer Perspective)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mdmehrabhasansompod/Elevare-fitness-project.git
+   cd elevare-fitness-project
